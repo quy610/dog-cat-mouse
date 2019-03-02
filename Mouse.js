@@ -1,4 +1,5 @@
 function Mouse(name) {
-	name : name,
-	age : 1
+	this.name = name
 }
+
+module.exports = Mouse;
